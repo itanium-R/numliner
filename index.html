@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width , initial-scale=1">
+  <title>数直線表示</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body id="body">
+  <header>
+  </header>
+
+  <script src="./numLiner.js"></script>
+  <script>
+    const compA = [
+      { name: "0", value: 0 },
+      { name: "√1", value: 1 },
+      { name: "√2", value: 1.41 },
+      { name: "√3", value: 1.73 },
+      { name: "√4", value: 2 },
+      { name: "√5", value: 2.24 },
+      { name: "√6", value: 2.45 },
+      { name: "√7", value: 2.65 },
+      { name: "√8", value: 2.83 },
+    ];
+    const nl1 = new numLiner("body", "nl1", 800, 0, 3, compA);
+  </script>
+
+  <footer>
+  </footer>
+</body>
+
+</html>
